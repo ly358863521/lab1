@@ -1,5 +1,5 @@
 package lab1;
-//No.2
+//B1 No.3
 import java.io.*;
 import java.util.HashMap;
 import java.util.Map.Entry;
