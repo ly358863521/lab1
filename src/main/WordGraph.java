@@ -118,7 +118,7 @@ public class WordGraph {
         HashSet<String> nodeSet = new HashSet<>();
         Collections.addAll(nodeSet,stringArray);
         nodeCount = nodeSet.size();
-        wordWeight = new HashMap<>(100);
+        wordWeight = new HashMap<>(200);
         weightArray = new int[nodeCount][nodeCount];
         edgeIsMarked = new boolean[nodeCount][nodeCount];
         nodeIsMarked = new boolean[nodeCount];
