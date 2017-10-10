@@ -18,13 +18,13 @@ public class libtest {
 //        Graph graph = graph("example").directed().with(node("a").link(node("b")));
 //        JFrame mainFrame = new JFrame("Vocatool");
 //        frameInitialize(mainFrame);
-//        mainFrame.setVisible(true);
+       mainFrame.setVisible(true);
 //    }
     public static void main(String[] args) throws dotPathException{
         WordGraph.setDotPath("D:\\graphviz-2.38\\release\\bin\\dot.exe");
         try{System.out.println(WordGraph.testDotPath());}
         catch(Exception e){
-            System.out.println(false);
+            System.out.println(true);
         }
         WordGraph wordGraph = new WordGraph("this is a example, this was an example, this could be an example");
         Map<String, File> fileMap = new HashMap<>();

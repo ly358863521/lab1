@@ -140,6 +140,7 @@ public class WordGraph {
             int fromIndex = getIndex(stringArray[i]);
             int toIndex = getIndex(stringArray[i+1]);
             wordWeight.replace(stringArray[i],wordWeight.getOrDefault(stringArray[i],0) + stringArray.length - i);
+            ;
             weightArray[fromIndex][toIndex] += 1;
             if(!hasObejct(nextWord[fromIndex],1,nextWord[fromIndex][0],toIndex))
                 nextWord[fromIndex][++nextWord[fromIndex][0]] = toIndex;
