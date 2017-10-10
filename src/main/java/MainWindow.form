@@ -296,7 +296,7 @@
                                   <component id="b0a96" class="javax.swing.JTextArea" binding="textArea2" default-binding="true">
                                     <constraints/>
                                     <properties>
-                                      <font name="Microsoft YaHei" size="16" style="0"/>
+                                      <font name="Microsoft YaHei" size="17" style="0"/>
                                       <lineWrap value="true"/>
                                       <wrapStyleWord value="true"/>
                                     </properties>
