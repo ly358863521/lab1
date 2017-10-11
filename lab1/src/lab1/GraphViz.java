@@ -1,5 +1,5 @@
 package lab1;
-//No.1
+
 
 import java.io.BufferedReader;
 import java.io.DataInputStream;
