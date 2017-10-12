@@ -5,6 +5,10 @@ import java.util.HashMap;
 import java.util.Map.Entry;
 import java.util.Scanner;
 import java.util.Set;
+
+/**
+ * TEST
+ */
 public class Proba
 {
     private static HashMap<String,Integer> neighbor = new HashMap<String,Integer>();//存储图中的边及其出现次数

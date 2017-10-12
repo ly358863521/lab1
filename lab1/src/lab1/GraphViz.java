@@ -47,6 +47,7 @@ public class GraphViz
 {
 /**
  * The dir. where temporary files will be created.
+ * Here is something for test.
  */
 //private static String TEMP_DIR = "/tmp"; // Linux
 private static String TEMP_DIR = "c:/temp"; // Windows
