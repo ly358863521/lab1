@@ -20,7 +20,8 @@ class LinkSource{
     private String start;
     private String end;
     private int weight;
-    private boolean color = false;
+    private int abc；
+    private boolean color = true;
 
     public LinkSource(String start, String end, int weight, boolean color) {
         this.start = start;
