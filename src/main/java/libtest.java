@@ -23,7 +23,7 @@ public class libtest {
         catch(Exception e){
             System.out.println(false);
         }
-        WordGraph wordGraph = new WordGraph("this is an example, this was an example, this could be an example");
+        WordGraph wordGraph = new WordGraph("this is an example, this was an example, this could be an example.");
         Map<String, File> fileMap = new HashMap<>();
         wordGraph.allShortestPath("this", fileMap);
 //        System.out.println(wordGraph.allShortestPath("this"));
