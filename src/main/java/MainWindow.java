@@ -337,7 +337,7 @@ public class MainWindow {
                         }else
                             System.out.println(String.format("File %s removed accidentally.", s));
                     }
-                    JFrame subFrame = new JFrame("所有最短路径");
+                    JFrame subFrame = new JFrame("所有最短路径的哦~~~");
                     subFrame.getContentPane().setLayout(new GridBagLayout());
                     subFrame.getContentPane().setMinimumSize(new Dimension(600,400));
                     GridBagConstraints scrollConstraint =  new GridBagConstraints();

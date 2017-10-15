@@ -16,9 +16,6 @@ public class libtest {
 
 //    public static void main(String[] args) {
 //        Graph graph = graph("example").directed().with(node("a").link(node("b")));
-//        JFrame mainFrame = new JFrame("Vocatool");
-//        frameInitialize(mainFrame);
-//        mainFrame.setVisible(true);
 //    }
     public static void main(String[] args) throws dotPathException{
         WordGraph.setDotPath("D:\\graphviz-2.38\\release\\bin\\dot.exe");
