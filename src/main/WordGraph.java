@@ -15,7 +15,7 @@ import java.util.stream.Collectors;
 // dot路径未找到
 class dotPathException extends Exception{}
 
-// 边类
+//
 class LinkSource{
     private String start;
     private String end;

@@ -2,7 +2,7 @@
 <form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="routeChooser">
   <grid id="27dc6" binding="choosePanel" layout-manager="GridBagLayout">
     <constraints>
-      <xy x="20" y="20" width="515" height="400"/>
+      <xy x="20" y="20" width="516" height="400"/>
     </constraints>
     <properties/>
     <border type="none"/>
