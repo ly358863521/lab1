@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+﻿package;
+
+>>>>>>> 1150320212
 import org.apache.batik.transcoder.TranscoderException;
 import org.apache.batik.transcoder.TranscoderInput;
 import org.apache.batik.transcoder.TranscoderOutput;
@@ -15,12 +20,11 @@ import java.util.stream.Collectors;
 // dot路径未找到
 class dotPathException extends Exception{}
 
-//
+// 边类
 class LinkSource{
     private String start;
     private String end;
     private int weight;
-    private int abc；
     private boolean color = true;
 
     public LinkSource(String start, String end, int weight, boolean color) {
@@ -119,7 +123,11 @@ public class WordGraph {
         HashSet<String> nodeSet = new HashSet<>();
         Collections.addAll(nodeSet,stringArray);
         nodeCount = nodeSet.size();
+<<<<<<< HEAD
         wordWeight = new HashMap<>(100);
+=======
+        wordWeight = new HashMap<>(200);
+>>>>>>> 1150320212
         weightArray = new int[nodeCount][nodeCount];
         edgeIsMarked = new boolean[nodeCount][nodeCount];
         nodeIsMarked = new boolean[nodeCount];
@@ -141,6 +149,10 @@ public class WordGraph {
             int fromIndex = getIndex(stringArray[i]);
             int toIndex = getIndex(stringArray[i+1]);
             wordWeight.replace(stringArray[i],wordWeight.getOrDefault(stringArray[i],0) + stringArray.length - i);
+<<<<<<< HEAD
+=======
+            ;
+>>>>>>> 1150320212
             weightArray[fromIndex][toIndex] += 1;
             if(!hasObejct(nextWord[fromIndex],1,nextWord[fromIndex][0],toIndex))
                 nextWord[fromIndex][++nextWord[fromIndex][0]] = toIndex;

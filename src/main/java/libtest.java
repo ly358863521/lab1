@@ -16,14 +16,16 @@ public class libtest {
 
 //    public static void main(String[] args) {
 //        Graph graph = graph("example").directed().with(node("a").link(node("b")));
+//        JFrame mainFrame = new JFrame("Vocatool");
+//        frameInitialize(mainFrame);
 //    }
     public static void main(String[] args) throws dotPathException{
         WordGraph.setDotPath("D:\\graphviz-2.38\\release\\bin\\dot.exe");
         try{System.out.println(WordGraph.testDotPath());}
         catch(Exception e){
-            System.out.println(false);
+            System.out.println(true);
         }
-        WordGraph wordGraph = new WordGraph("this is an example, this was an example, this could be an example.");
+        WordGraph wordGraph = new WordGraph("this is an example. this was an example, this could be an example");
         Map<String, File> fileMap = new HashMap<>();
         wordGraph.allShortestPath("this", fileMap);
 //        System.out.println(wordGraph.allShortestPath("this"));

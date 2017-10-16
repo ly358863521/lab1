@@ -12,7 +12,11 @@
         <constraints>
           <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
             <minimum-size width="640" height="480"/>
+<<<<<<< HEAD
             <preferred-size width="1025" height="720"/>
+=======
+            <preferred-size width="1024" height="720"/>
+>>>>>>> 1150320212
           </grid>
         </constraints>
         <properties/>
@@ -296,7 +300,11 @@
                                   <component id="b0a96" class="javax.swing.JTextArea" binding="textArea2" default-binding="true">
                                     <constraints/>
                                     <properties>
+<<<<<<< HEAD
                                       <font name="Microsoft YaHei" size="16" style="0"/>
+=======
+                                      <font name="Microsoft YaHei" size="14" style="0"/>
+>>>>>>> 1150320212
                                       <lineWrap value="true"/>
                                       <wrapStyleWord value="true"/>
                                     </properties>

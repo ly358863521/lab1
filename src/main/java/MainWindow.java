@@ -80,7 +80,7 @@ public class MainWindow {
                     System.out.println(file.getAbsoluteFile());
                     chosenFile = file;
                 }else{
-                    JOptionPane.showMessageDialog(mainPanel, "未选择任何文件！！！！！", "提示",JOptionPane.WARNING_MESSAGE);
+                    JOptionPane.showMessageDialog(mainPanel, "未选择任何文件！！", "提示",JOptionPane.WARNING_MESSAGE);
                     textField1.setText("");
                 }
             });
@@ -337,7 +337,7 @@ public class MainWindow {
                         }else
                             System.out.println(String.format("File %s removed accidentally.", s));
                     }
-                    JFrame subFrame = new JFrame("所有最短路径的哦~~~");
+                    JFrame subFrame = new JFrame("所有最短路径");
                     subFrame.getContentPane().setLayout(new GridBagLayout());
                     subFrame.getContentPane().setMinimumSize(new Dimension(600,400));
                     GridBagConstraints scrollConstraint =  new GridBagConstraints();
