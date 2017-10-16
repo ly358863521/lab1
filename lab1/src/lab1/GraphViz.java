@@ -50,7 +50,7 @@ public class GraphViz
  * Here is something for test.
  */
 //private static String TEMP_DIR = "/tmp"; // Linux
-private static String TEMP_DIR = "c:/temp"; // Windows
+private static String TEMP_DIR = "d:/temp"; // Windows
 
 /**
  * Where is your dot program located? It will be called externally.

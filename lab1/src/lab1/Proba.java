@@ -15,7 +15,7 @@ public class Proba
     private static HashMap<String,String> neiColor = new HashMap<String,String>();
     private static HashMap<String,Integer> numWord = new HashMap<String,Integer>();//存储不同单词的编号
     private static HashMap<Integer,String> word = new HashMap<Integer,String>();//与numWord键值相反
-    private static String[] Color = {"red", "green", "blue", "pink", "gray"};
+    private static String[] Color = {"red", "green", "blue", "pink", "grey"};
     private int [][] graph;
     public static void main(String[] args) throws IOException
     {
